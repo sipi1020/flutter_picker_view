@@ -19,7 +19,7 @@ class PickerView extends StatefulWidget {
       @required this.controller,
       this.itemExtent = 40,
       this.onSelectRowChanged,
-      this.backgroundColor = Colors.white})
+      this.backgroundColor = Colors.transparent})
       : super();
 
   @override
