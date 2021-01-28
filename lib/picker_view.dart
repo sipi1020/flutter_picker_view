@@ -75,7 +75,7 @@ class PickerViewState extends State<PickerView> {
 
     return Container(
       child: CupertinoPicker.builder(
-        backgroundColor: Colors.white,
+        backgroundColor: widget.backgroundColor,
         scrollController: scrollController,
         diameterRatio: 1,
         itemExtent: widget.itemExtent ?? 40,
